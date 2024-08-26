@@ -1,0 +1,191 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.patients {
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doctor-info {
+  display: flex;
+  align-items: center;
+}
+
+.doctor-info h1 {
+  margin-right: 10px;
+}
+
+.date-info p {
+  margin: 0;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.summary-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary-right {
+  display: flex;
+  align-items: center;
+}
+
+.date-range {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.search-bar {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-add {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-change-name {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-edit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.btn-delete {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.btn-view {
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.btn-add-patient {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-download {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin-top: 10px;
+}
+
+.btn-close {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin-top: 10px;
+}
+
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.table-responsive {
+  display: inline-block;
+  min-width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.photo-preview img {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.camera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-camera, .btn-capture, .btn-stop-camera {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+}
